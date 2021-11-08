@@ -1,0 +1,92 @@
+#page-add-post {
+    background: #000;
+}
+
+#page-add-post .small-title {
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    background: -webkit-linear-gradient(left, #ff3399, #ff9933);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: none !important;
+}
+
+#page-add-post fieldset {
+    margin-bottom: 8px;
+}
+
+#page-add-post .button {
+    margin: 0;
+}
+
+#page-add-post .button .ui-btn{
+    font-size: 18px;
+}
+
+#page-add-post .ui-select {
+    margin: 0 8px 8px 8px;
+}
+
+.ui-grid-a .ui-select {
+    margin-bottom: 16px !important;
+}
+
+.ui-select .ui-btn {
+    color: white !important;
+    background: -webkit-linear-gradient(left, #ff3399, #ff9933);
+    text-shadow: none !important;
+}
+
+#page-add-post .ui-select .ui-btn::after {
+    background-color: transparent;
+}
+
+.btn-img .ui-btn {
+    color: white !important;
+    background: -webkit-linear-gradient(left, #ff3399, #ff9933);
+    margin: 0 8px 8px 8px;
+    width: 45px;
+    height: 45px;
+}
+
+.btn-img .ui-btn::after {
+    margin: 0;
+    top: 8%;
+    left: 8%;
+    width: 39px;
+    height: 39px;
+    background-size: 75%;
+}
+
+#page-add-post #form-confirm {
+    background: #000;
+}
+
+#page-add-post #form-confirm th{
+    font-size: 15px;
+    background: -webkit-linear-gradient(left, #ff3399, #ff9933);
+    -webkit-background-clip: text;
+    color: transparent;
+    width: 40%;
+    padding-bottom: 10px;
+}
+
+#page-add-post #form-confirm td{
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    color: #fff;
+}
+
+#page-add-post #form-confirm #gallery{
+    white-space: nowrap;
+    margin-bottom: 10px;
+}
+
+#page-add-post #form-confirm #gallery img{
+    height: 200px;
+    width: 200px;
+}

@@ -1,0 +1,173 @@
+#page-detail {
+    background: #000;
+    color: #fff;
+}
+
+#page-detail #info img {
+    background: -webkit-linear-gradient(right,#ff3399,#ff9933);
+    border-radius: 50%;
+    height: 50px;
+}
+
+#page-detail #info p {
+    font-weight: 700;
+    background: -webkit-linear-gradient(left, #ff3399, #ff9933);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin: 0;
+}
+
+#page-detail #info #reporter {
+    font-size: 20px;
+}
+
+#page-detail #info #date {
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+
+#page-detail #detail {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#page-detail #detail tr {
+    height: 40px;
+}
+
+#page-detail #detail td {
+    font-size: 15px;
+    padding-left: 20px;
+    font-weight: 500;
+}
+
+#page-detail #post-img #gallery {
+    white-space: nowrap;
+}
+
+#page-detail #post-img #gallery img {
+    height: 250px;
+    margin-left: 10px;
+}
+
+#page-detail .btn-option {
+    border: none !important;
+    background-color: transparent !important;
+    background-image: url("../../img/icon-3dots.png");
+    background-size: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: none;
+}
+
+#page-detail #option .ui-btn {
+    color: white;
+    text-shadow: none !important;
+    background: -webkit-linear-gradient(left,#ff33ff,#3366ff) !important;
+    border-color: white;
+}
+
+#page-detail #form-update {
+    background: #000;
+}
+
+#page-detail #form-update .ui-input-text input {
+    padding: 8px 8px;
+}
+
+#page-detail .ui-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px;
+    overflow: visible;
+    padding: 0px;
+    text-align: center;
+}
+
+#page-detail .small-title {
+    font-size: 17px;
+    font-weight: 700;
+    padding-left: 8px;
+    background: -webkit-linear-gradient(left, #ff3399, #ff9933);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: none !important;
+}
+
+#page-detail .button {
+    margin: 16px 8px;
+}
+
+#page-detail .button .ui-btn{
+    font-size: 18px;
+}
+
+#page-detail .ui-controlgroup{
+    margin: 6px 8px;
+}
+
+#page-detail #img-preview #btn-close {
+    position: absolute;
+    right: 0;
+    z-index: 4;
+    opacity: 0.5;
+    background: -webkit-linear-gradient(left, #ff3399, #ff9933);
+}
+
+#page-detail #img-preview {
+    height: 200px;
+}
+
+#page-detail #img-preview #background {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    opacity: 0.5;
+    background: -webkit-linear-gradient(right,rgba(255, 51, 255, 0.5),rgba(51, 102, 255, 0.5));
+    height: 200px;
+}
+
+#page-detail #img-preview #gallery {
+    white-space: nowrap;
+    margin-top: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 3;
+}
+
+#page-detail #img-preview #gallery img {
+    margin-right: 10px;
+    cursor: pointer;
+    height: 180px;
+}
+
+#page-detail .check-confirm {
+    width: 150px;
+    background: -webkit-linear-gradient(right,rgba(255, 51, 255, 0.5),rgba(51, 102, 255, 0.5));
+    text-shadow: none !important;
+    color: #fff;
+}
+
+#page-detail .ui-checkbox input {
+    left: 11px;
+    top: 23px;
+    width: 19px;
+    height: 19px;
+}
+
+#page-detail #form-delete {
+    background: #000;
+    color: #fff;
+}
+
+#page-detail #form-delete #btn-delete, #btn-cancel{
+    background: -webkit-linear-gradient(left,#ff3399,#ff9933);
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: none !important;
+    padding: 12px 16px;
+}

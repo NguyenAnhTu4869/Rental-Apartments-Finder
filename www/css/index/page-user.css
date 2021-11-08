@@ -1,0 +1,21 @@
+#page-user {
+    background: #000;
+}
+
+#page-user #user {
+    width: 100%
+}
+
+#page-user #user th {
+    width: 10%;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+#page-user #user td {
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 35px;
+    padding-bottom: 15px;
+    color: #fff;
+}

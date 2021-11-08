@@ -1,0 +1,37 @@
+.title {
+    font-size: 32px;
+    color: white;
+    padding-bottom: 48px;
+}
+
+.error{
+    font-weight: bold;
+    font-size: 16px;
+    color: red;
+    padding: 0 0 8px 8px;
+}
+
+.ui-input-text{
+    margin: 0 8px 24px 8px;
+}
+
+.ui-input-text input {
+    padding: 16px 8px;
+    font-size: 20px;
+}
+
+.button {
+    margin: 72px 8px 40px 8px;
+}
+
+.button .ui-btn{
+    background: -webkit-linear-gradient(left,#ff3399,#ff9933);
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: none !important;
+}
+
+.ui-input-text .ui-icon-delete::after {
+    background-color: #ff9933;
+}

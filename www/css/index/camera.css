@@ -1,0 +1,36 @@
+#page-add-post #img-preview {
+  display: none;
+}
+
+#page-add-post #img-preview #background {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  opacity: 0.5;
+  background: -webkit-linear-gradient(right,rgba(255, 51, 255, 0.5),rgba(51, 102, 255, 0.5));
+}
+
+#page-add-post #img-preview #btn-close {
+  position: absolute;
+  right: 0;
+  z-index: 4;
+  opacity: 0.5;
+  background: -webkit-linear-gradient(left, #ff3399, #ff9933);
+}
+
+#page-add-post #img-preview #gallery {
+  white-space: nowrap;
+  margin-top: 10px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 3;
+}
+
+#page-add-post #img-preview #gallery img {
+  margin-right: 10px;
+  cursor: pointer;
+  height: 180px;
+}

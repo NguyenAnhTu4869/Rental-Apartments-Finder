@@ -1,0 +1,13 @@
+#page-login, #page-register {
+    background: -webkit-linear-gradient(right,#ff3399,#ff9933);
+    padding-top: 80px;
+    text-shadow: none;
+}
+
+.link {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 80px;
+}

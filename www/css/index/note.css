@@ -1,0 +1,98 @@
+#note #form-add-note #message {
+    margin-left: 0px;
+    font-size: 20px;
+    color: #fff;
+}
+
+#note #form-add-note #img-preview {
+    display: none;
+}
+
+#note #form-add-note #gallery {
+    position: relative;
+    margin-top: 80px;
+}
+
+#note #form-add-note #gallery img{
+    margin-top: 10px;
+}
+
+#note #form-add-note #btn-add-note {
+    background: -webkit-linear-gradient(left,#ff3399,#ff9933);
+    font-size: 19px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: none !important;
+    margin: 0px;
+    padding: 10px 17px 10px 48px;
+}
+
+#note #form-add-note .btn-img .ui-btn {
+    margin-bottom: 0px;
+    width: 44px;
+    height: 44px;
+}
+
+#note .list {
+    background: #fff;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+#note .list img {
+    height: 50px;
+    background: -webkit-linear-gradient(left,#ff3399,#ff9933);
+    margin-right: 10px;
+}
+
+#note .list strong {
+    font-size: 16px;
+}
+
+#note .list small {
+    font-size: 12px;
+}
+
+#note .list .setting a {
+    background: none;
+    border: none;
+}
+
+#note .list .image {
+    margin: 0 8px;
+}
+
+#note .list .image img {
+    background: none;
+    height: 200px;
+}
+
+#note .list #form-update-note textarea {
+    background: -webkit-linear-gradient(right,rgba(255, 51, 255),rgba(51, 102, 255));
+    padding: 8px;
+}
+
+#note .list #form-update-note .button button {
+    background: -webkit-linear-gradient(left,#ff3399,#ff9933) !important;
+}
+
+#form-delete-note {
+    background: #000;
+    color: #fff;
+}
+
+#form-delete-note h2 {
+    background: -webkit-linear-gradient(left, #ff3399, #ff9933);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#form-delete-note .ui-btn {
+    background: -webkit-linear-gradient(left,#ff3399,#ff9933);
+    font-size: 19px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: none !important;
+    margin: 0px;
+    padding: 10px 17px;
+}
