@@ -15,6 +15,15 @@ $(document).on('vclick', '#page-user #user #user-info', function () {
     $.mobile.navigate('#page-coming-soon', { transition: 'none' });
 });
 
+$(document).on('vclick', '#page-user #user #vibration', function () {
+    navigator.vibrate([1000, 1000, 3000, 1000, 5000]);
+});
+
+$(document).on('vclick', '#page-user #user #notification', function () {
+    navigator.notification.beep(5);
+});
+
+
 function showUserList() {
     var userId = localStorage.getItem('userId');
     log(userId);

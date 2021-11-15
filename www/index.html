@@ -90,10 +90,12 @@
 <div data-role="page" id="page-home">
     <div data-role="header" data-position="fixed" data-tap-toggle="false" data-hide-during-focus="">
         <div style="margin-left: 5px; margin-right: 5px;">
-            <a href="#page-coming-soon" data-transition="none" style="border: none; margin-top: 10px;"
+            <a href="#page-coming-soon" data-transition="none"
+               style="border: none; margin-top: 10px;"
                class="ui-btn ui-btn-icon-notext ui-nodisc-icon menu">Menu</a>
 
-            <a href="#page-coming-soon" data-transition="none" style="float: right; margin-top: 10px;"
+            <a href="#page-coming-soon" data-transition="none"
+               style="float: right; margin-top: 10px;"
                class="ui-btn ui-btn-icon-notext ui-nodisc-icon avatar">Avatar</a>
         </div>
     </div>
@@ -104,7 +106,8 @@
         <table style="margin-bottom: 24px;">
             <tr>
                 <td style="width: 100%; padding: 0px;">
-                    <input type="text" placeholder="Filter posts..." id="txt-filters" style="padding: 8px;">
+                    <input type="text" placeholder="Filter posts..." id="txt-filters"
+                           style="padding: 8px;">
                 </td>
 
                 <td style="padding: 0px;" class="filter">
@@ -137,7 +140,8 @@
                 <select id="select-furniture"></select>
             </fieldset>
 
-            <input type="number" id="number-room" placeholder="Number of Rooms" data-clear-btn="true">
+            <input type="number" id="number-room" placeholder="Number of Rooms"
+                   data-clear-btn="true">
 
             <label class="small-title" style="text-align: center;">Monthly Price</label>
             <div data-role="rangeslider" data-mini="true">
@@ -146,7 +150,8 @@
             </div>
 
             <input type="text" id="contact-name" placeholder="Contact name" data-clear-btn="true">
-            <input type="number" id="contact-number" placeholder="Contact number" data-clear-btn="true">
+            <input type="number" id="contact-number" placeholder="Contact number"
+                   data-clear-btn="true">
 
             <button type="submit">Search</button>
         </form>
@@ -180,10 +185,12 @@
 <div data-role="page" id="page-add-post">
     <div data-role="header" data-position="fixed" data-tap-toggle="false" data-hide-during-focus="">
         <div style="margin-left: 5px; margin-right: 5px;">
-            <a href="#page-coming-soon" data-transition="none" style="border: none; margin-top: 10px;"
+            <a href="#page-coming-soon" data-transition="none"
+               style="border: none; margin-top: 10px;"
                class="ui-btn ui-btn-icon-notext ui-nodisc-icon menu">Menu</a>
 
-            <a href="#page-coming-soon" data-transition="none" style="float: right; margin-top: 10px;"
+            <a href="#page-coming-soon" data-transition="none"
+               style="float: right; margin-top: 10px;"
                class="ui-btn ui-btn-icon-notext ui-nodisc-icon avatar">Avatar</a>
         </div>
     </div>
@@ -362,7 +369,8 @@
     <div data-role="header" data-position="fixed" data-tap-toggle="false" data-hide-during-focus="">
         <div style="margin-left: 5px; margin-right: 5px;">
             <a href="#page-home" data-transition="none" style="background: none; border: none;"
-               class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-nodisc-icon transparent">Back to list</a>
+               class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-nodisc-icon transparent">Back to
+                list</a>
 
             <a href="#option" data-rel="popup" style="float: right;" data-transition="none"
                class="ui-btn ui-btn-icon-notext ui-nodisc-icon btn-option">Option</a>
@@ -373,13 +381,15 @@
         <div data-role="popup" id="option">
             <ul data-role="listview" data-icon="false">
                 <li>
-                    <a href="#frm-update" data-rel="popup" data-position-to="window" id="btn-update-popup">
+                    <a href="#frm-update" data-rel="popup" data-position-to="window"
+                       id="btn-update-popup">
                         Update
                     </a>
                 </li>
 
                 <li>
-                    <a href="#frm-delete" data-rel="popup" data-position-to="window" id="btn-delete-popup">
+                    <a href="#frm-delete" data-rel="popup" data-position-to="window"
+                       id="btn-delete-popup">
                         Delete
                     </a>
                 </li>
@@ -398,12 +408,14 @@
 
                 <label>Please check "<strong>confirm delete</strong>" to delete this post.</label>
 
-                <label class="check-confirm"><input type="checkbox" id="check-confirm" name="checkbox-0">Confirm delete</label>
+                <label class="check-confirm"><input type="checkbox" id="check-confirm"
+                                                    name="checkbox-0">Confirm delete</label>
 
                 <div style="text-align: right;">
                     <a class="ui-btn ui-corner-all ui-btn-inline" data-rel="back" id="btn-cancel">Cancel</a>
 
-                    <button type="submit" class="ui-btn ui-corner-all ui-btn-inline ui-disabled" id="btn-delete">Delete
+                    <button type="submit" class="ui-btn ui-corner-all ui-btn-inline ui-disabled"
+                            id="btn-delete">Delete
                     </button>
                 </div>
             </div>
@@ -569,7 +581,8 @@
 
         <div id="note" style="display: none;">
             <form id="form-add-note" style="margin-top: 5px; margin-bottom: 20px;">
-                <textarea id="message" rows='3' placeholder="Please enter your comment here..."></textarea>
+                <textarea id="message" rows='3'
+                          placeholder="Please enter your comment here..."></textarea>
 
                 <div class="btn-img" style="float: left;">
                     <button type="button" id="btn-gallery"
@@ -577,19 +590,21 @@
                         Gallery
                     </button>
                     <button type="button" id="btn-camera"
-                                class="ui-btn ui-icon-camera ui-btn-icon-notext ui-nodisc-icon ui-btn-inline">
-                            Camera
-                        </button>
+                            class="ui-btn ui-icon-camera ui-btn-icon-notext ui-nodisc-icon ui-btn-inline">
+                        Camera
+                    </button>
                 </div>
 
                 <div style="float: right;">
                     <button type="submit" id="btn-add-note"
-                                class="ui-btn ui-icon-plus ui-corner-all ui-btn-icon-left ui-nodisc-icon ui-btn-inline ui-mini">Add</button>
+                            class="ui-btn ui-icon-plus ui-corner-all ui-btn-icon-left ui-nodisc-icon ui-btn-inline ui-mini">
+                        Add
+                    </button>
                 </div>
 
                 <div id="img-preview" style="height: 200px;">
                     <a id="btn-close"
-                               class="ui-btn ui-icon-delete ui-btn-icon-notext ui-nodisc-icon ui-btn-inline ui-mini transparent"></a>
+                       class="ui-btn ui-icon-delete ui-btn-icon-notext ui-nodisc-icon ui-btn-inline ui-mini transparent"></a>
                     <div id="background" style="height: 200px;"></div>
                     <div id="gallery" style='overflow-x: scroll; height: 200px;'></div>
                 </div>
@@ -609,7 +624,8 @@
                 <br>
 
                 <div style="text-align: right;">
-                    <a class="ui-btn ui-corner-all ui-btn-inline" data-rel="back" style="margin-right: 16px;">Cancel</a>
+                    <a class="ui-btn ui-corner-all ui-btn-inline" data-rel="back"
+                       style="margin-right: 16px;">Cancel</a>
 
                     <button type="submit" class="ui-btn ui-corner-all ui-btn-inline">
                         Delete
@@ -646,10 +662,12 @@
 <div data-role="page" id="page-user">
     <div data-role="header" data-position="fixed" data-tap-toggle="false" data-hide-during-focus="">
         <div style="margin-left: 5px; margin-right: 5px;">
-            <a href="#page-coming-soon" data-transition="none" style="border: none; margin-top: 10px;"
+            <a href="#page-coming-soon" data-transition="none"
+               style="border: none; margin-top: 10px;"
                class="ui-btn ui-btn-icon-notext ui-nodisc-icon menu">Menu</a>
 
-            <a href="#page-coming-soon" data-transition="none" style="float: right; margin-top: 10px;"
+            <a href="#page-coming-soon" data-transition="none"
+               style="float: right; margin-top: 10px;"
                class="ui-btn ui-btn-icon-notext ui-nodisc-icon avatar">Avatar</a>
         </div>
     </div>
@@ -663,12 +681,20 @@
                 <td id="username"></td>
             </tr>
             <tr id="post-list">
-                 <th><img src="img/icon-list.png" height="30px"></th>
-                 <td>My post list</td>
-             </tr>
+                <th><img src="img/icon-list.png" height="30px"></th>
+                <td>My post list</td>
+            </tr>
             <tr id="about-me">
                 <th><img src="img/icon-about.png" height="30px"></th>
                 <td>About me</td>
+            </tr>
+            <tr id="vibration">
+                <th><img src="img/icon-vibration.png" height="30px"></th>
+                <td>Vibration</td>
+            </tr>
+            <tr id="notification">
+                <th><img src="img/icon-notification.png" height="30px"></th>
+                <td>Notification</td>
             </tr>
         </table>
 
@@ -703,10 +729,12 @@
 <div data-role="page" id="page-list-post">
     <div data-role="header" data-position="fixed" data-tap-toggle="false" data-hide-during-focus="">
         <div style="margin-left: 5px; margin-right: 5px;">
-            <a href="#page-coming-soon" data-transition="none" style="border: none; margin-top: 10px;"
+            <a href="#page-coming-soon" data-transition="none"
+               style="border: none; margin-top: 10px;"
                class="ui-btn ui-btn-icon-notext ui-nodisc-icon menu">Menu</a>
 
-            <a href="#page-coming-soon" data-transition="none" style="float: right; margin-top: 10px;"
+            <a href="#page-coming-soon" data-transition="none"
+               style="float: right; margin-top: 10px;"
                class="ui-btn ui-btn-icon-notext ui-nodisc-icon avatar">Avatar</a>
         </div>
     </div>
@@ -743,10 +771,12 @@
 <div data-role="page" id="page-about">
     <div data-role="header" data-position="fixed" data-tap-toggle="false" data-hide-during-focus="">
         <div style="margin-left: 5px; margin-right: 5px;">
-            <a href="#page-coming-soon" data-transition="none" style="border: none; margin-top: 10px;"
+            <a href="#page-coming-soon" data-transition="none"
+               style="border: none; margin-top: 10px;"
                class="ui-btn ui-btn-icon-notext ui-nodisc-icon menu">Menu</a>
 
-            <a href="#page-coming-soon" data-transition="none" style="float: right; margin-top: 10px;"
+            <a href="#page-coming-soon" data-transition="none"
+               style="float: right; margin-top: 10px;"
                class="ui-btn ui-btn-icon-notext ui-nodisc-icon avatar">Avatar</a>
         </div>
     </div>
@@ -795,10 +825,12 @@
 <div data-role="page" id="page-coming-soon">
     <div data-role="header" data-position="fixed" data-tap-toggle="false" data-hide-during-focus="">
         <div style="margin-left: 5px; margin-right: 5px;">
-            <a href="#page-coming-soon" data-transition="none" style="border: none; margin-top: 10px;"
+            <a href="#page-coming-soon" data-transition="none"
+               style="border: none; margin-top: 10px;"
                class="ui-btn ui-btn-icon-notext ui-nodisc-icon menu">Menu</a>
 
-            <a href="#page-coming-soon" data-transition="none" style="float: right; margin-top: 10px;"
+            <a href="#page-coming-soon" data-transition="none"
+               style="float: right; margin-top: 10px;"
                class="ui-btn ui-btn-icon-notext ui-nodisc-icon avatar">Avatar</a>
         </div>
     </div>
